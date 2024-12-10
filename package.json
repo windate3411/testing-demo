@@ -1,6 +1,5 @@
 {
   "name": "@windate3411/my-react-lib",
-  "private": true,
   "version": "0.0.1",
   "type": "module",
   "main": "dist/index.cjs.js",
