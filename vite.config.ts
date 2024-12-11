@@ -1,7 +1,7 @@
 import path from 'path';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
-import dts from 'vite-plugin-dts'; // 添加這行
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
   plugins: [
@@ -9,6 +9,8 @@ export default defineConfig({
     dts({
       insertTypesEntry: true,
       include: ['src'],
+      rollupTypes: true,
+      tsconfigPath: './tsconfig.app.json',
     }),
   ],
   build: {
