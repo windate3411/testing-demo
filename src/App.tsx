@@ -1,4 +1,4 @@
-import MyDialog from './MyDialog';
+import { MyDialog } from './MyDialog';
 
 function App() {
   return (

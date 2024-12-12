@@ -14,7 +14,7 @@ interface IMyDialogProps {
   description: React.ReactNode;
 }
 
-const MyDialog: React.FunctionComponent<IMyDialogProps> = ({
+export const MyDialog: React.FunctionComponent<IMyDialogProps> = ({
   onClose,
   title,
   description,
@@ -43,5 +43,3 @@ const MyDialog: React.FunctionComponent<IMyDialogProps> = ({
     </Dialog>
   );
 };
-
-export default MyDialog;
